@@ -1,0 +1,139 @@
+.ContactContainer {
+    margin: 100px auto;
+    padding: 50px;
+    width: 700px;
+    height: 750px;
+    background-color: #ff7961;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   }
+  
+   .innerContainer {
+    margin: 5px ;
+    padding: 2px;
+   }
+
+   .BigContainer {
+    margin: 1rem auto;
+    padding: auto;
+   }
+
+   .inputss {
+    max-width: 300px;
+    height: 50px;
+    border: 2px solid transparent;
+    outline: none;
+    border-bottom: 2px solid #3f3f3f;
+    border-radius: 0.3rem;
+    caret-color: #3f3f3f;
+    background-color: #212121;
+    padding: 5px;
+    transition: .5s linear;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 1px;
+    margin-left: 2rem;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .inputss:focus {
+    border: 2px solid #fa4753;
+    caret-color: #fa4753;
+    color: #fa4753;
+    box-shadow: 4px 4px 10px #070707;
+  }
+  
+  .inputss:focus::placeholder {
+    color: #fa4753;
+  }
+  
+  .bdy {
+    background-image: url("https://www.colorhexa.com/f44336.png")
+  }
+
+  .input1 {
+    width: 528px;
+    height: 100px;
+    margin-left: 2rem;
+    border: 2px solid transparent;
+    border-radius: 0.3rem;
+    outline: none;
+    border-bottom: 2px solid #3f3f3f;
+    caret-color: #3f3f3f;
+    background-color: #212121;
+    padding: 5px;
+    transition: .5s linear;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 1px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .input1:focus {
+    border: 2px solid #fa4753;
+    caret-color: #fa4753;
+    color: #fa4753;
+    box-shadow: 4px 4px 10px #070707;
+  }
+  
+  .input1:focus::placeholder {
+    color: #fa4753;
+  }
+
+  .title {
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; left: 115px; top: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  /* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #fa4753;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative; left: 205px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+    margin-top: 2rem;
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }

@@ -1,0 +1,202 @@
+.wrapper {
+  height: 500px;
+  width: 350px;
+  color: white;
+  background-color: #272639;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 100px auto;
+}
+
+.container{
+  margin-top: 1.4rem;
+}
+
+#topContainer {
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  color: white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: x-large;
+}
+
+.spam {
+  font-weight: bolder;
+  color: white;
+  font-size: larger;
+  margin-left: 1rem;
+}
+
+.input {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #e8e8e8;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #212121;
+  font-size: large;
+  font-weight: bold;
+  text-align: left;
+  width: 18rem;
+  height: 2rem;
+  color: white;
+ }
+ 
+ .input:focus {
+  outline-color: white;
+  background-color: #212121;
+  color: #e8e8e8;
+  box-shadow: 5px 5px #888888;
+ }
+
+ * {
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  /* background-image: linear-gradient(to right,#A18CD1,#FBC2EB); */
+  background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");
+}
+
+.inputContainer {
+  background: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+#billTotalInput,
+#tipInput {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.buttonContainer {
+  background: #8990ec;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.buttonContainer-1 {
+  background: #8990ec;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  margin-left: 0.25rem;
+}
+
+.splitButton {
+  background: none;
+  border: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.splitButton {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+.buttonText {
+  color: #353959 !important;
+}
+
+.splitAmount {
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.total {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+
+ .card {
+  width: 350px;
+  height: 500px;
+  margin: 20px;
+  background-color: #011522;
+  border-radius: 10px;
+  z-index: 1;
+  align-items: flex-end;
+  position: relative; left: 1000px; top: -200px;
+ }
+ 
+ .tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+ }
+ 
+ .circle {
+  padding: 0 4px;
+ }
+ 
+ .box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+ }
+ 
+ .red {
+  background-color: #ff605c;
+ }
+ 
+ .yellow {
+  background-color: #ffbd44;
+ }
+ 
+ .green {
+  background-color: #00ca4e;
+ }
+
+ .textdiv {
+  background-color: none;
+  height: 300px;
+  width: 500px;
+  margin: 20px;
+  position: relative; top: 200px; left: 100px;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+
+ }
